@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  01reposotorios:
+    image: 01reposotorios
+    build:
+      context: .
+      dockerfile: ./Dockerfile
